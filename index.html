@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="خدمات کامل خودرو؛ یدک‌کش، بیمه، لوازم، نمایندگی، اقساط و لاستیک"
+    />
+    <title>اتوپلاس | همه خدمات خودرو</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="اتوپلاس">
+          <img src="assets/logo.svg" alt="لوگوی اتوپلاس" />
+          <span><b>اتو</b>پلاس</span>
+        </a>
+        <div class="topbar-note">همه خدمات خودرو، یکجا</div>
+      </header>
+
+      <section class="hero" id="top" aria-label="خدمات خودرو">
+        <div class="slider-wrap">
+          <div class="slider" id="slider">
+            <article class="slide is-active image-slide">
+              <div class="slide-media">
+                <img
+                  src="assets/diagnostic.jpg"
+                  alt="عیب‌یابی خودرو با لپ‌تاپ"
+                />
+              </div>
+              <div class="slide-copy">
+                <span class="eyebrow">عیب‌یابی و تعمیر</span>
+                <h1>هر چیزی که خودرویت<br /><strong>لازم دارد.</strong></h1>
+                <p>
+                  عیب‌یابی، تعمیر و خدمات تخصصی خودرو را سریع و مطمئن درخواست
+                  کن.
+                </p>
+                <a class="slide-action" href="#request"
+                  >درخواست خدمت <span>←</span></a
+                >
+              </div>
+            </article>
+            <article class="slide image-slide">
+              <div class="slide-media">
+                <img src="assets/lathe.jpg" alt="تعمیر و قطعه‌سازی صنعتی" />
+              </div>
+              <div class="slide-copy">
+                <span class="eyebrow">لوازم و قطعات</span>
+                <h1>قطعه مناسب را<br /><strong>پیدا کن.</strong></h1>
+                <p>
+                  برای قطعات و لوازم خودرو، درخواستت را ثبت کن تا مسیر تهیه را
+                  شروع کنیم.
+                </p>
+                <a class="slide-action" href="#request"
+                  >درخواست قطعه <span>←</span></a
+                >
+              </div>
+            </article>
+            <article class="slide image-slide">
+              <div class="slide-media">
+                <img
+                  src="assets/images.jpeg"
+                  alt="تعمیرکار در حال سرویس خودرو"
+                />
+              </div>
+              <div class="slide-copy">
+                <span class="eyebrow">سرویس و نگهداری</span>
+                <h1>خودرویت را<br /><strong>آماده نگه دار.</strong></h1>
+                <p>
+                  از سرویس دوره‌ای تا لاستیک و امداد، خدمات موردنیازت را یکجا
+                  بگیر.
+                </p>
+                <a class="slide-action" href="#services"
+                  >مشاهده خدمات <span>←</span></a
+                >
+              </div>
+            </article>
+            <article class="slide text-slide">
+              <div class="text-slide-inner">
+                <span class="eyebrow">اتوپلاس</span>
+                <h1>یک درخواست،<br /><strong>چندین راه‌حل.</strong></h1>
+                <p>
+                  یدک‌کش، بیمه، لوازم، نمایندگی، خرید اقساطی و لاستیک؛ همه در یک
+                  مسیر.
+                </p>
+                <a class="slide-action" href="#request"
+                  >درخواست خدمت <span>←</span></a
+                >
+              </div>
+            </article>
+          </div>
+
+          <div class="slider-controls">
+            <button id="prev" aria-label="تصویر قبلی">‹</button>
+            <div class="dots" id="dots"></div>
+            <button id="next" aria-label="تصویر بعدی">›</button>
+          </div>
+          <div class="timer-line"><span id="timerProgress"></span></div>
+        </div>
+      </section>
+
+      <section class="services" id="services" aria-labelledby="services-title">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow dark">خدمات ما</span>
+            <h2 id="services-title">هر چیزی که خودرو لازم دارد</h2>
+          </div>
+          <span class="service-count">۰۶ خدمت</span>
+        </div>
+
+        <div class="service-grid">
+          <a class="service-card" href="#request" data-service="یدک‌کش">
+            <span class="icon-box"
+              ><img
+                src="https://api.iconify.design/mdi/tow-truck.svg?width=64&height=64&color=%23171a1f"
+                alt=""
+            /></span>
+            <span class="service-title">یدک‌کش</span
+            ><span class="service-sub">امداد و حمل خودرو</span>
+          </a>
+          <a class="service-card" href="#request" data-service="بیمه">
+            <span class="icon-box"
+              ><img
+                src="https://api.iconify.design/mdi/shield-check-outline.svg?width=64&height=64&color=%23171a1f"
+                alt=""
+            /></span>
+            <span class="service-title">بیمه</span
+            ><span class="service-sub">بیمه خودرو و شخص ثالث</span>
+          </a>
+          <a class="service-card" href="#request" data-service="لوازم">
+            <span class="icon-box"
+              ><img
+                src="https://api.iconify.design/mdi/car-cog.svg?width=64&height=64&color=%23171a1f"
+                alt=""
+            /></span>
+            <span class="service-title">لوازم</span
+            ><span class="service-sub">قطعات و لوازم خودرو</span>
+          </a>
+          <a class="service-card" href="#request" data-service="نمایندگی">
+            <span class="icon-box"
+              ><img
+                src="https://api.iconify.design/mdi/car-wrench.svg?width=64&height=64&color=%23171a1f"
+                alt=""
+            /></span>
+            <span class="service-title">نمایندگی</span
+            ><span class="service-sub">سرویس تخصصی خودرو</span>
+          </a>
+          <a class="service-card" href="#request" data-service="دلار">
+            <span class="icon-box dollar-icon">$</span>
+            <span class="service-title">اقساط</span
+            ><span class="service-sub">خدمات مالی و پرداخت</span>
+          </a>
+          <a class="service-card" href="#request" data-service="لاستیک">
+            <span class="icon-box"
+              ><img
+                src="https://api.iconify.design/mdi/tire.svg?width=64&height=64&color=%23171a1f"
+                alt=""
+            /></span>
+            <span class="service-title">لاستیک</span
+            ><span class="service-sub">انتخاب و تعویض لاستیک</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="request" id="request">
+        <div class="request-card">
+          <div>
+            <span class="eyebrow">شروع کنیم؟</span>
+            <h2>درخواستت را ثبت کن</h2>
+            <p>خدمت موردنظرت را انتخاب کن تا ادامه مسیر را با هم انجام دهیم.</p>
+          </div>
+          <form id="requestForm">
+            <select id="serviceSelect" aria-label="انتخاب خدمت">
+              <option value="">انتخاب خدمت</option>
+              <option>یدک‌کش</option>
+              <option>بیمه</option>
+              <option>لوازم</option>
+              <option>نمایندگی</option>
+              <option>دلار</option>
+              <option>لاستیک</option>
+            </select>
+            <button type="submit">درخواست خدمت <span>←</span></button>
+          </form>
+        </div>
+      </section>
+      <footer>© ۱۴۰۵ اتوپلاس — نمونه رابط کاربری</footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
