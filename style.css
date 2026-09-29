@@ -567,6 +567,129 @@ footer{
 /* =========================
    MOBILE
 ========================= */
+```css
+/* =========================================
+   FINAL MOBILE SLIDER FIX
+========================================= */
 
-@media (max-width:560px){ .slider-wrap{ height:auto !important; min-height:0 !important; max-height:none !important; overflow:hidden; } .slider{ position:relative !important; inset:auto !important; width:100% !important; height:auto !important; min-height:0 !important; max-height:none !important; } .slide{ position:absolute !important; inset:auto !important; width:100% !important; height:auto !important; min-height:0 !important; max-height:none !important; display:flex !important; flex-direction:column !important; } .slide.is-active{ position:relative !important; inset:auto !important; height:auto !important; min-height:0 !important; max-height:none !important; } /* عکس */ .slide-media{ position:relative !important; inset:auto !important; width:100% !important; height:160px !important; min-height:160px !important; max-height:160px !important; flex:none !important; } .slide-media img{ width:100% !important; height:100% !important; object-fit:cover !important; } /* محتوای زیر عکس */ .slide-copy{ position:relative !important; inset:auto !important; width:100% !important; height:auto !important; min-height:0 !important; max-height:none !important; flex:none !important; padding:20px 20px 65px !important; display:block !important; } .slide-copy h1, .text-slide h1{ font-size:30px !important; line-height:1.15 !important; margin:0 0 12px !important; } .slide-copy p, .text-slide p{ font-size:11px !important; line-height:1.8 !important; margin:0 0 16px !important; } .slide-action{ display:inline-flex !important; margin:0 !important; } /* کنترل‌های اسلایدر */ .slider-controls{ position:absolute !important; left:12px !important; right:12px !important; bottom:12px !important; height:36px !important; } /* اسلاید متنی */ .text-slide{ height:auto !important; min-height:380px !important; max-height:none !important; } .text-slide-inner{ width:100% !important; height:auto !important; min-height:380px !important; padding:25px 20px 65px !important; } }
-```
+@media (max-width:560px){
+
+  .slider-wrap{
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+    overflow:hidden;
+  }
+
+  .slider{
+    position:relative !important;
+    inset:auto !important;
+    width:100% !important;
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+  }
+
+  .slide{
+    position:absolute !important;
+    inset:auto !important;
+
+    width:100% !important;
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+
+    display:flex !important;
+    flex-direction:column !important;
+  }
+
+  .slide.is-active{
+    position:relative !important;
+    inset:auto !important;
+
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+  }
+
+  /* عکس */
+  .slide-media{
+    position:relative !important;
+    inset:auto !important;
+
+    width:100% !important;
+    height:160px !important;
+    min-height:160px !important;
+    max-height:160px !important;
+
+    flex:none !important;
+  }
+
+  .slide-media img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:cover !important;
+  }
+
+  /* محتوای زیر عکس */
+  .slide-copy{
+    position:relative !important;
+    inset:auto !important;
+
+    width:100% !important;
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+
+    flex:none !important;
+
+    padding:20px 20px 65px !important;
+
+    display:block !important;
+  }
+
+  .slide-copy h1,
+  .text-slide h1{
+    font-size:30px !important;
+    line-height:1.15 !important;
+    margin:0 0 12px !important;
+  }
+
+  .slide-copy p,
+  .text-slide p{
+    font-size:11px !important;
+    line-height:1.8 !important;
+    margin:0 0 16px !important;
+  }
+
+  .slide-action{
+    display:inline-flex !important;
+    margin:0 !important;
+  }
+
+  /* کنترل‌های اسلایدر */
+  .slider-controls{
+    position:absolute !important;
+
+    left:12px !important;
+    right:12px !important;
+    bottom:12px !important;
+
+    height:36px !important;
+  }
+
+  /* اسلاید متنی */
+  .text-slide{
+    height:auto !important;
+    min-height:380px !important;
+    max-height:none !important;
+  }
+
+  .text-slide-inner{
+    width:100% !important;
+    height:auto !important;
+    min-height:380px !important;
+
+    padding:25px 20px 65px !important;
+  }
+}
